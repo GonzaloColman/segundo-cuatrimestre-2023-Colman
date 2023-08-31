@@ -1,0 +1,24 @@
+¿Cuál es el beneficio de usar un lenguaje con
+tipos (Typescript)?
+    el beneficio de usar typescript es la escritura estatita que ayuda a  detectar errores.
+mantener un codigo mas limpio. facilita el trabajo en simultaneo en un mismo proyecto ahorrando tiempo de depuracion y de cambios en el codigo.
+    Ademas como es un lenguaje de tipado estatico tiene soporte para características de lenguajes con tipado estático, inferencia
+    y verificación de tipos, y compatibilidad con JavaScript
+-----------------------------------
+
+¿A qué se le llama variable interna? ¿Por qué internas?
+
+    Las variables internas se las llama a los datos  que no estan a vista para el usuario. Son para hacer calculos o guardar informacion de manera temporal.
+    Son "internas" porque estan oculta dentro del codigo y no se puede usar en cualquier parte.
+----------------------------------
+
+Explicar la diferencia entre composición y
+herencia
+
+    Composición es una composición es que una clase sencilla figure como variable interna de otra clase
+y la herencia se usa cuando queremos que una clase haga lo mismo que otra, pero agregando/modificando funcionalidad
+----------------------------------
+
+Explicar el mecanismo que provee TypeScript para manejar casos en donde los parámetros que
+le llegan a un método son inválidos
+

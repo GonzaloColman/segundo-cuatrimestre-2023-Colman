@@ -48,6 +48,14 @@ class Kiosco {
 		}
 	}
 
+	getTotalVendido(): number {
+		let total = 0;
+		for (const producto of this.productosVendidos) {
+			total += producto.cantidad * producto.precioNeto;
+		}
+		return total;
+	}
+
 	getProducto(productoId: number): Producto | undefined {
 		return this.productosEnVenta.find((producto) => producto.id === productoId);
 	}
@@ -80,6 +88,5 @@ negocio.agregarProducto([
 negocio.moverProducto(2, 10);
 
 console.log(negocio.getProductosEnVenta());
-/**
- * 
- */
+const totalVendido = negocio.getTotalVendido();
+console.log(`Total vendido: $${totalVendido}`);
