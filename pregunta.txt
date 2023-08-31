@@ -22,3 +22,5 @@ y la herencia se usa cuando queremos que una clase haga lo mismo que otra, pero 
 Explicar el mecanismo que provee TypeScript para manejar casos en donde los parámetros que
 le llegan a un método son inválidos
 
+    utiliza la validación de parámetros en tiempo de ejecución dentro del método. Esto implica verificar explícitamente si los argumentos pasados al método son válidos y, si no lo son, lanzar una excepción o devolver un valor de error.
+    admite la sobrecarga de funciones, lo que permite definir múltiples versiones de una función con diferentes tipos y números de parámetros. Esto puede ser útil para manejar casos en los que se pueden pasar diferentes tipos de argumentos a una función.
