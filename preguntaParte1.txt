@@ -1,0 +1,21 @@
+• ¿Qué pasa cuando se corre el comando “tsc”?
+al hacerlo se compilan los archivos typescript en javascript lo que permite ejecutar el codigo 
+Ts en cualquier entorno que admita Js. Tambien se realiza verificaciones para detectar errores 
+--------------------------
+
+• ¿Cómo está organizada una clase?
+la palabra clave class seguida del nombre de la clase y un par de llaves que contienen el cuerpo de la
+clase. Dentro del cuerpo de la clase, se pueden definir propiedades y métodos para representar los datos y
+comportamientos del objeto.
+se utilizan para almacenar datos relacionados con el objeto. Las propiedades pueden ser públicas, privadas o protegidas
+--------------------------
+
+• ¿Es correcto que un método auxiliar de una clase sea público? ¿Por qué?
+un método auxiliar de una clase sea público si se desea permitir que sea llamado desde fuera de la clase. Sin embargo, si un método auxiliar solo se utiliza internamente dentro de la clase y no se desea exponer su funcionalidad al resto del codigo, puede ser más apropiado hacerlo privado o protegido
+--------------------------
+
+• Enumerar las características de una interfaz
+    Funcionan como un “contrato” que debe cumplir una determinada clase.
+    Se especifican los métodos pero sin comportamiento, es decir sin codificar lo que hacen.
+    Las clases que implementen a las interfaces tienen la obligación de implementar todos los métodos definidos en la interfaz.
+    Son una muy buena práctica ya que ayudan a plantear lo que debería hacer una clase.
